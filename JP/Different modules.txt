@@ -1,0 +1,29 @@
+
+Main Menu:
+1. Student Management
+2. Attendance Management
+3. Reports
+4. Settings
+
+1. Student Section:
+   a. Add Student
+   b. Edit Student
+   c. View Student List
+   d. Delete Student
+   e. Student Details
+
+2. Attendance Section:
+   a. Mark Attendance
+   b. Attendance History
+   c. Generate Attendance Report
+   d. Attendance Summary
+
+3. Reports and analytics:
+   a. View Student Attendance
+   b. Monthly Attendance Summary
+
+4. Settings:
+   a. User Profile
+   d. Help and Support
+   e. Logout
+

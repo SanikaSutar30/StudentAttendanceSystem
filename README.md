@@ -1,0 +1,2 @@
+# StudentAttendanceSystem
+ The Student Attendance System is a desktop application designed to streamline attendance management in educational institutions. It provides an intuitive interface built with Java Swing for marking, managing, and reporting student attendance. The system uses SQL as the backend to securely store and retrieve student and attendance records. This project ensures accuracy, reduces manual effort, and enhances the efficiency of attendance tracking.

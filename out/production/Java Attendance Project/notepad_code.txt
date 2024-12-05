@@ -1,0 +1,80 @@
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.LayoutManager;
+import java.awt.TextField;
+import java.awt.Toolkit;
+
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+class login_page{
+
+    public static void main(String[] args) {
+
+
+
+           //Frame creation
+            JFrame frame=new JFrame("LOGIN PAGE");
+            frame.setSize(Toolkit.getDefaultToolkit().getScreenSize());
+          
+
+             //background img
+            
+
+           //Panel Creation
+           JPanel login_panel=new JPanel();
+           login_panel.setBounds(500,100,500,600);
+           login_panel.setBackground(new Color(5,65,93,255));
+             
+             
+             //LABEL CREATION 
+             JLabel loginletter=new JLabel("LOGIN /SIGN UP");
+             loginletter.setBounds(150, 20, 200, 50);
+             loginletter.setForeground(Color.white); 
+             loginletter.setFont(new Font("Sans Serif", Font.PLAIN, 28));
+             
+             JLabel usernamelabel= new JLabel("User ID:");
+             usernamelabel.setBounds(10, 20, 60, 30);
+             usernamelabel.setForeground(Color.white); 
+             
+             JLabel passwordlabel= new JLabel("Password:");
+             passwordlabel.setSize(50,50);
+             passwordlabel.setForeground(Color.white);
+
+              // TEXT FIELD CREATION
+             JTextField userfield = new JTextField("Username");
+             userfield.setBounds(150, 300, 150, 30);
+             JPasswordField passwordfield = new JPasswordField();
+             passwordfield.setBounds(80, 400, 150, 30);
+             
+             
+             
+             //adding components to panel
+             login_panel.setLayout(null);
+             //login_panel.add(usernamelabel);
+             //login_panel.add(passwordlabel);
+             login_panel.add(loginletter);
+             login_panel.add(userfield);
+             login_panel.add(passwordfield); 
+
+
+
+             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+             frame.setLayout(null);
+
+             //adding panel to frame
+             Container container=frame.getContentPane();
+             container.setLayout(null);
+             container.add(login_panel);
+             frame.setVisible(true);
+
+    }
+}
